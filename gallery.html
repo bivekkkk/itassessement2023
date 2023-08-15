@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery - Bivek</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ad939f350.js" crossorigin="anonymous"></script>
+
+    <style>
+        img {
+            
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        .photo{
+            
+            display: flex;
+            justify-content: center;
+           background:transparent;
+           position:relative;
+           top: -60vh;
+           z-index: 1;
+              
+        }
+        body{
+            height: 90vh;
+        }
+        .footer1{
+    margin-top: 10px;
+    width: 70%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+   
+<div class="photo">
+    <a href="item1.jpg" target="_blank"><img src="item1.jpg" alt="item" style="width:150px"></a>
+    <a href="item2.jpg" target="_blank"><img src="item2.jpg" alt="item" style="width:150px"></a>
+    <a href="item3.jpg" target="_blank"><img src="item3.jpg" alt="item" style="width:150px"></a>
+    <a href="item4.jpg" target="_blank"><img src="item4.jpg" alt="item" style="width:150px"></a>
+
+</div>
+
+    <div class="footer1">
+        <div class="col-1">
+            <h3>USEFUL LINKS:</h3>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+
+        <div class="col-2">
+            <h3>NEWSLETTER:</h3>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <h3>CONTACT:</h3>
+            <p>9811115454<br><br>New Baneshwor<br>Kathmandu, Nepal</p>
+            <div class="social-icons">
+                <a href="wwww.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
